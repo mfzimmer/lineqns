@@ -7,7 +7,6 @@ import math
 def getData( A_path, B_path ):
     A = np.loadtxt( A_path )
     B = np.loadtxt( B_path )
-    nr,nc = A.shape
     return( (A,B) )
 
 def doColSpaceSoln(A,B):
